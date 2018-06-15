@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+<bean id="employee" class="com.objectInjection.Employee">
+<property name="employee1" ref="employeeDeatils1"></property>
+<property name="employee2" ref="employeeDeatils2"></property>
+<property name="employee3" ref="employeeDeatils3"></property>
+</bean>
+
+<bean id="employeeDeatils1" class="com.objectInjection.EmployeeDetails">
+<property name="id" value="101"></property>
+<property name="name" value="karthik"></property>
+<property name="address" value="vijaynagr"></property>
+</bean>
+
+<bean id="employeeDeatils2" class="com.objectInjection.EmployeeDetails">
+<property name="id" value="102"></property>
+<property name="name" value="chandan"></property>
+<property name="address" value="rajajinagr"></property>
+</bean>
+
+<bean id="employeeDeatils3" class="com.objectInjection.EmployeeDetails">
+<property name="id" value="103"></property>
+<property name="name" value="kiran"></property>
+<property name="address" value="rr nagar"></property>
+</bean>
+
+
+
+</beans>
+
