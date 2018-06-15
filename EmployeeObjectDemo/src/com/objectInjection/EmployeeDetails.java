@@ -26,7 +26,7 @@ public class EmployeeDetails {
 	}
 	
 	public void information() {
-		System.out.println("Id"+getId()+"Name"+getName()+"Address"+getAddress());
+		System.out.println("Id:"+getId()+"\n"+"Name:"+getName()+"\n"+"Address:"+getAddress());
 	}
 
 }
